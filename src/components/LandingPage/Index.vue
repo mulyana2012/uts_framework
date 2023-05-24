@@ -99,7 +99,7 @@ export default {
 };
 </script>
 <template>
-  <div>
+  <div class="border-0">
     <div class="row row-cols-1 row-cols-md-5 g-4">
       <div v-for="data_images in data_images" class="col">
         <a class="btn btn-link btn-block">

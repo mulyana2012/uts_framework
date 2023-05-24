@@ -4,17 +4,11 @@ import { RouterLink, RouterView } from 'vue-router';
 
 <template>
   <header>
-    <ul class="nav justify-content-center" style="background-color: rgb(9, 62, 132)">
-      <li class="nav-item">
-        <a class="nav-link text-light" href="/">CLUB</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" text-light href="/lives">LAGA</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#">ABOUT</a>
-      </li>
-    </ul>
+    <nav class="nav" style="background-color: #1b9c85">
+      <a class="nav-link text-white" href="/">CLUB</a>
+      <a class="nav-link text-white" href="/lives">LAGA</a>
+      <a class="nav-link text-white" href="/">ABOUT</a>
+    </nav>
   </header>
 
   <RouterView />
